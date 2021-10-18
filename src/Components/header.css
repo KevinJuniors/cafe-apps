@@ -8,13 +8,11 @@
 #header {
     display: block;
     position: relative;
-    /* clear: both; */
 }
 
 #logo {
     font-size: 30px;
     font-weight: 400;
-    /* float: left; */
     text-align: left;
     display: block;
     position: absolute;
@@ -23,5 +21,25 @@
 .navGroup {
     display: block;
     position: relative;
-    text-align: center;
+    float: right;
+}
+
+.navbar {
+    clear: both;
+    list-style: none;
+}
+
+.Home>button>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Info>button>a {
+    color: #000000;
+    text-decoration: none;
+}
+
+.Maps>button>a {
+    color: #000000;
+    text-decoration: none;
 }
