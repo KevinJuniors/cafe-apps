@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#header {
+    display: block;
+    position: relative;
+    /* clear: both; */
+}
+
+#logo {
+    font-size: 30px;
+    font-weight: 400;
+    /* float: left; */
+    text-align: left;
+    display: block;
+    position: absolute;
+}
+
+.navGroup {
+    display: block;
+    position: relative;
+    text-align: center;
+}
