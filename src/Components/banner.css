@@ -1,0 +1,14 @@
+#bannerWrap {
+    width: auto;
+    height: auto;
+    text-align: center;
+    display: block;
+}
+
+.BannerImage {
+    display: block;
+    position: absolute;
+    top: 100px;
+    left: 300px;
+    overflow: hidden;
+}

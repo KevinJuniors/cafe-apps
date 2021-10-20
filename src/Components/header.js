@@ -6,7 +6,7 @@ class Header extends Component {
         return (
             <div id="header">
                 <h1 id="logo">Cafe Apps</h1>
-
+                
                 <nav className="navGroup">
                     <ul className="navbar">
                         <li className="Home">
