@@ -1,6 +1,6 @@
 import React, { Component } from "react";
-import "./banner.css";
-import BannerImage from "../images/coffee-banner-images.png";
+import "./css/banner.css";
+import BannerImage from "../images/coffee-image-banners.jpg";
 
 class Banner extends Component {
     render() {

@@ -3,17 +3,23 @@
   <head>
     <meta charset="utf-8" />
     <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- 모바일 환경에서 연락처 양식과 비슷한 숫자 데이터에 하이퍼링크가 걸리지 않도록 방지하는 meta Tag -->
+    <meta name="format-detection" content="telephone=no" />
     <meta name="theme-color" content="#000000" />
     <meta name="description" content="Web site created using create-react-app"/>
     <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Black+And+White+Picture&display=swap" />
+    <!-- 카카오맵 API -->
+    <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=5cf5f909b6e1f37fa0e8628fa0bf13f2&libraries=services"></script>
     <title>Cafe Apps</title>
   </head>
 
   <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
   </body>
 </html>

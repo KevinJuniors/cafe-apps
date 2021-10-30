@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: block;
+    position: relative;
+}
+
+.contents {
+    position: absolute;
+    display: block;
+    top: 850px;
+    right: 77px;
+}
+
+.contents > .imageWrap {
+    display: flexbox;
+    position: relative;
+}
+
+.textWrap {
+    display: block;
+    position: relative;
+    top: 10px;
+    font-size: 22px;
+    font-family: 'Black And White Picture', sans-serif;
+}

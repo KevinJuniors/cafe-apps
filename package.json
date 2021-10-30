@@ -11,39 +11,33 @@
     "react": "^17.0.2",
     "react-bootstrap": "^1.6.4",
     "react-dom": "^17.0.2",
+    "react-media": "^1.10.0",
+    "react-responsive": "^9.0.0-beta.4",
     "react-scripts": "4.0.3",
     "web-vitals": "^2.1.2"
   },
-  
   "scripts": {
     "start": "react-scripts start",
     "predeploy": "gh-pages -d build",
     "deploy": "npm run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-
   "eslintConfig": {
     "extends": [
       "react-app",
       "react-app/jest"
     ]
   },
-
   "browserslist": {
     "production": [
       ">0.2%",
       "not dead",
       "not op_mini all"
     ],
-
     "development": [
       "last 1 chrome version",
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-
-  "devDependencies": {
-    "gh-pages": "^3.2.3"
   }
 }
