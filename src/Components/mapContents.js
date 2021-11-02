@@ -276,15 +276,15 @@ const MapContainer = ({ kakaoMaps }) => {
     return (
       <div id="mapContents">
         <div className="hAddr">
-            <span className="title">지도중심 기준 주소</span>
-            <span id="centerAddr"></span>
+          <span className="title">지도중심 기준 주소</span>
+          <span id="centerAddr"></span>
 
-            <ul id="category">
-                <li id="CE7" className="cafeIcon" data-order="4">
-                    <p className="categoryText">카페</p>
-                    <span className="category_bg cafe"></span>
-                </li>
-            </ul>
+          <ul id="category">
+            <li id="CE7" className="cafeIcon" data-order="4">
+                <span className="category_bg cafe"></span>
+                <p className="categoryText">카페</p>
+            </li>
+          </ul>
         </div>
       </div>
     )

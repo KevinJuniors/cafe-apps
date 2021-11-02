@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
 
+/* PC 버전 */
 * {
     margin: 0;
     padding: 0;
@@ -8,9 +9,11 @@
 #Home, .header {
     display: block;
     position: fixed;
-    background: #cccccc;
-    z-index: 100;
-    width: 1920px;
+    background: #c1e3ff;
+    z-index: 10000;
+    width: 100%;
+    /* width: auto; */
+    overflow: hidden;
 }
 
 #logo {
@@ -29,6 +32,7 @@
     display: block;
     position: relative;
     float: right;
+    right: 500px;
 }
 
 .navbar {
@@ -36,7 +40,7 @@
     list-style: none;
     top: 5px;
     bottom: 5px;
-    right: 320px;
+    margin-left: 400px;
 }
 
 .Home {
@@ -69,4 +73,19 @@
 .Maps>button>a {
     color: #000000;
     text-decoration: none;
+}
+
+/* 1024px 이하 태블릿, 노트북, 모바일 버전 */
+@media all and (max-with: 1024px) {
+    .navGroup {
+        display: block;
+        position: relative;
+        float: right;
+    }
+    
+    .navbar {
+        clear: both;
+        right: 250px;
+        margin-right: 200px;
+    }
 }

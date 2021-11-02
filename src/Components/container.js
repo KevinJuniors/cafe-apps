@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./css/container.css";
 import "./css/banner.css";
 import  Banner from "./banner";
-import CoffeeImage from "../images/coffee-banners.png";
+import CoffeeImage from "../images/cafes.jpg";
 import MapContainer from "./mapContents";
 
 class Container extends Component {
@@ -14,7 +14,7 @@ class Container extends Component {
 
                 <div className="contents">
                     <div className="imageWrap">
-                        <img src={CoffeeImage} alt="CoffeeImage" />
+                        <img src={CoffeeImage} className="img-fluid" alt="CoffeeImage" />
                     </div>
 
                     <div className="textWrap">
@@ -23,7 +23,10 @@ class Container extends Component {
                         </p>
                     </div>
 
+                    <hr />
+
                     <div className="mapsWrap">
+                        <h2 className="titleText">인근 카페위치 찾기</h2>
                         <MapContainer />
                     </div>
                 </div>

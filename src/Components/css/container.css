@@ -12,11 +12,16 @@
     position: absolute;
     display: block;
     top: 850px;
-    right: 77px;
+    right: 10px;
 }
 
 .contents > .imageWrap {
-    display: flexbox;
+    display: flex;
+    position: relative;
+}
+
+.contents > .imageWrap > img {
+    display: block;
     position: relative;
 }
 
@@ -26,4 +31,15 @@
     top: 10px;
     font-size: 22px;
     font-family: 'Black And White Picture', sans-serif;
+}
+
+.mapsWrap {
+    display: block;
+    position: relative;
+}
+
+.titleText {
+    display: inline-block;
+    position: absolute;
+    top: -20px;
 }

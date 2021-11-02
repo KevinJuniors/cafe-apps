@@ -1,43 +1,54 @@
+/* @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@500&family=Titillium+Web:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     cursor: default;
 }
 
+.titleText {
+    display: inline-block;
+    position: relative;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    background-color: #d4f3ffa4;
+}
+
 #mapContents {
     position: relative;
-    /* width: 1500px; */
-    width: 800px;
-    height: 700px;
-    left: 200px;
-    overflow: hidden;
+    width: 1000px;
+    height: 630px;
     display: block;
     background: #2e2e2e;
-    font-family: 'Malgun Gothic', dotum, '돋움' ,sans-serif;
-    font-size: 12px;
-
+    left: 300px;
+    font-size: 15px;
+    font-weight: 400;
 }
 
-.title {
-    font-weight: bold;
-    display: block;
-    position: relative;
-    width: 160px;
-}
+
 
 .hAddr {
     position: absolute;
+    font-family: 'Titillium Web', sans-serif;
+    font-weight: 600;
     left: 10px;
     top: 10px;
     border-radius: 2px;
-    background: #fff;
     background: #ffffffcc;
     z-index: 10;
     padding: 5px;
 }
 
+.title {
+    font-weight: 700;
+    display: block;
+    position: relative;
+}
+
 #centerAddr {
     display: block;
+    position: relative;
     margin-top: 2px;
     font-weight: normal;
 }
@@ -51,25 +62,25 @@
 
 #category {
     position: absolute;
+    display: block;
     top: 70px;
-    left: 10px;
+    margin-left: -50px;
     border-radius: 5px;
     border: 1px solid #909090;
+    box-shadow: 0 1px 1px #00000066;
     background: #fff;
     overflow: hidden;
     z-index: 2;
-    cursor: help;
 }
 
 #category li {
+    position: relative;
+    display: block;
     float: left;
     list-style: none;
-    display: block;
-    position: relative;
-    /* border-right: 1px solid #acacac; */
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-right: 10px;
+    width: 50px;
+    border-right: 1px solid #acacac;
+    padding: 5px 5px 5px 5px;
     text-align: center;
     cursor: pointer;
 }
@@ -79,7 +90,8 @@
 }
 
 #category li:hover {
-    background: #c8e7e3;
+    background: #ffe6e6;
+    border-left: 1px solid #acacac;
     margin-left: -1px;
 }
 
@@ -100,13 +112,32 @@
         no-repeat;
 }
 
+#category li .bank {
+    background-position: -10px 0;
+}
+
+#category li .mart {
+    background-position: -10px -36px;
+}
+
+#category li .pharmacy {
+    background-position: -10px -72px;
+}
+
+#category li .oil {
+    background-position: -10px -108px;
+}
+
 #category li .cafe {
     background-position: -10px -144px;
 }
 
+#category li .store {
+    background-position: -10px -180px;
+}
+
 #category li.on .category_bg {
     background-position-x: -46px;
-    display: block;
 }
 
 .placeinfo_wrap {

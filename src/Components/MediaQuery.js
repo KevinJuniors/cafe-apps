@@ -1,13 +1,12 @@
-import React from "react";
-import { useMediaQuery } from 'react-responsive';
+import { useMediaQuery } from 'react-responsive'
 
 const Desktop = ({ children }) => {
-  const isDesktop = useMediaQuery({ minWidth: 1024 })
+  const isDesktop = useMediaQuery({ maxWidth: 980 })
   return isDesktop ? children : null
 }
 
 const Tablet = ({ children }) => {
-  const isTablet = useMediaQuery({ minWidth: 768, maxWidth: 1023 })
+  const isTablet = useMediaQuery({ maxWidth: 768 })
   return isTablet ? children : null
 }
 
@@ -17,11 +16,11 @@ const Mobile = ({ children }) => {
 }
 
 const Default = ({ children }) => {
-  const isNotMobile = useMediaQuery({ minWidth: 768 })
+  const isNotMobile = useMediaQuery({ minWidth: 480 })
   return isNotMobile ? children : null
 }
 
-const DynamicWeb = () => (
+const MediaQuery = () => (
   <div>
     <Desktop>Desktop or laptop</Desktop>
     <Tablet>Tablet</Tablet>
@@ -29,5 +28,4 @@ const DynamicWeb = () => (
     <Default>Not mobile (desktop or laptop or tablet)</Default>
   </div>
 )
-
-export default DynamicWeb;
+export default MediaQuery;
