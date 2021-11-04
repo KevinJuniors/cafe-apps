@@ -11,20 +11,20 @@ class Header extends Component {
                 <nav className="navGroup">
                     <ul className="navbar">
                         <li className="Home">
-                            <button type="button" className="btn btn-outline-success">
+                            <button type="button" className="btn btn-outline-danger">
                                 <a href="#Home">Home</a>
                             </button>
                         </li>
 
                         <li className="Info">
-                            <button type="button" className="btn btn-outline-success">
-                                <a href="#Info">Info</a>
+                            <button type="button" className="btn btn-outline-danger">
+                                <a href="#contents">Info</a>
                             </button>
                         </li>
 
                         <li className="Maps">
-                            <button type="button" className="btn btn-outline-success">
-                                <a href="#Maps">Maps</a>
+                            <button type="button" className="btn btn-outline-danger">
+                                <a href="#mapContents">Maps</a>
                             </button>
                         </li>
                     </ul>

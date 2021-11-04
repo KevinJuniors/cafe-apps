@@ -1,3 +1,7 @@
+img {
+  overflow: hidden;
+}
+
 .App {
   text-align: center;
 }

@@ -1,15 +1,14 @@
 #bannerWrap {
-    width: 100%;
-    height: 100%;
+    width: auto;
+    height: auto;
     text-align: center;
     display: block;
-    /* overflow: hidden; */
-    flex-direction: column;
 }
 
 .BannerImage {
     display: block;
     position: absolute;
     top: 70px;
+    left: 0;
     overflow: hidden;
 }

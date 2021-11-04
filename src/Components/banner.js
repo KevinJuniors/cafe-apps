@@ -7,7 +7,7 @@ class Banner extends Component {
         return (
             <div id="bannerWrap">
                 <div className="BannerImage">
-                    <img src={BannerImage} className="img-fluid" alt="BannerImage" />
+                    <img src={BannerImage} alt="BannerImage" />
                 </div>
             </div>
         )

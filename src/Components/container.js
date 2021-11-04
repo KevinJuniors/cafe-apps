@@ -2,8 +2,12 @@ import React, { Component } from "react";
 import "./css/container.css";
 import "./css/banner.css";
 import  Banner from "./banner";
-import CoffeeImage from "../images/cafes.jpg";
+import CoffeeImage from "../images/cafe.jpg";
 import MapContainer from "./mapContents";
+import starbucksIcon from "../images/starbucks-icon.jpg";
+import hollysIcon from "../images/hollys-icon.jpg";
+import composeIcon from "../images/compose-icon.jpg";
+import megaIcon from "../images/mega-icon.jpg";
 
 class Container extends Component {
     render() {
@@ -12,9 +16,9 @@ class Container extends Component {
                 <Banner />
                 <br />
 
-                <div className="contents">
+                <div id="contents">
                     <div className="imageWrap">
-                        <img src={CoffeeImage} className="img-fluid" alt="CoffeeImage" />
+                        <img src={CoffeeImage} alt="CoffeeImage" />
                     </div>
 
                     <div className="textWrap">
@@ -23,11 +27,41 @@ class Container extends Component {
                         </p>
                     </div>
 
-                    <hr />
-
                     <div className="mapsWrap">
-                        <h2 className="titleText">인근 카페위치 찾기</h2>
+                        <h2>인근 카페정보 찾아보기</h2>
                         <MapContainer />
+                    </div>
+
+                    <div className="iconWrap">
+                        <ul claaName="icons">
+                            <li className="starbucks">
+                                <p>스타벅스</p>
+                                <a href="https://www.starbucks.co.kr/menu/drink_list.do" title="스타벅스 메뉴 보러가기">
+                                    <img src={starbucksIcon} alt="starbucks-icon" />
+                                </a>
+                            </li>
+
+                            <li className="hollys">
+                                <p>할리스커피</p>
+                                <a href="https://www.hollys.co.kr/menu/espresso.do" title="할리스커피 메뉴 보러가기">
+                                    <img src={hollysIcon} alt="hollys-icon" />
+                                </a>
+                            </li>
+
+                            <li className="compose">
+                                <p>컴포즈커피</p>
+                                <a href="https://composecoffee.com/index.php?mid=board_koTk88&category=185" title="컴포즈커피 메뉴 보러가기">
+                                    <img src={composeIcon} alt="compose-icon" />
+                                </a>
+                            </li>
+
+                            <li className="mega">
+                                <p>메가커피</p>
+                                <a href="http://www.megacoffee.me/bbs/content.php?co_id=menu1" title="메가커피 메뉴 보러가기">
+                                    <img src={megaIcon} alt="mega-icon" />
+                                </a>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>

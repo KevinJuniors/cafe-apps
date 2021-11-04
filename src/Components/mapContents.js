@@ -10,7 +10,7 @@ const MapContainer = ({ kakaoMaps }) => {
       
       // 지도의 좌표 값 및 확대 레벨을 설정
       var options = {
-        center: new kakao.maps.LatLng(37.2100104526833, 127.05926918036364),
+        center: new kakao.maps.LatLng(37.207599011582865, 127.06427285444649),
         level: 3,
       }
   
@@ -276,15 +276,15 @@ const MapContainer = ({ kakaoMaps }) => {
     return (
       <div id="mapContents">
         <div className="hAddr">
-          <span className="title">지도중심 기준 주소</span>
-          <span id="centerAddr"></span>
+            <span className="title">지도중심 기준 주소</span>
+            <span id="centerAddr"></span>
 
-          <ul id="category">
-            <li id="CE7" className="cafeIcon" data-order="4">
-                <span className="category_bg cafe"></span>
-                <p className="categoryText">카페</p>
-            </li>
-          </ul>
+            <ul id="category">
+                <li id="CE7" className="cafeIcon" data-order="4">
+                    <span className="category_bg cafe"></span>
+                    <p className="categoryText">카페</p>
+                </li>
+            </ul>
         </div>
       </div>
     )
