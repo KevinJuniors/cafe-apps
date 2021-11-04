@@ -1,5 +1,5 @@
-## Cafe-Apps
-React로 구현하는 우리동네 카페 찾기 웹 애플리케이션  
+## Cafe-Apps 한 줄 소개
+React로 구현하는 우리동네 카페 찾기 웹 애플리케이션 입니다 !!   
   
 ## 개발 일지
 2021-10-16 React Projcet "cafe-apps" 개발 환경 세팅완료  
@@ -9,5 +9,5 @@ React로 구현하는 우리동네 카페 찾기 웹 애플리케이션
 2021-11-02 배너이미지 번경, 반응형 웹 2차 작업, 카카오 지도 1차 수정작업  
 2021-11-04 주요 커피 브랜드(스타벅스, 이디야, 메가커피, 컴포즈커피) 이미지아이콘 추가  
 
-## Cafe-Apps
+## Cafe-Apps 살펴보기
 [## Cafe-Apps 바로가기] (https://kevinjuniors.github.io/cafe-apps/public/index.html)  
