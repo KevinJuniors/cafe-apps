@@ -1,5 +1,6 @@
-img {
+body img {
   overflow: hidden;
+  background: no-repeat;
 }
 
 .App {

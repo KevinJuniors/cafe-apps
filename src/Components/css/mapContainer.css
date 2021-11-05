@@ -6,6 +6,8 @@
     cursor: default;
 }
 
+
+
 .titleText {
     display: inline-block;
     position: relative;
@@ -14,12 +16,20 @@
     background-color: #d4f3ffa4;
 }
 
+.mapsWrap {
+    display: block;
+    position: absolute;
+    float: left;
+    left: -300px;
+}
+
 .mapsWrap > h2 {
     display: inline-block;
     position: relative;
     top: 230px;
     text-align: center;
     background-color: #bfff8f;
+    clear: both;
 }
 
 #mapContents {
@@ -28,7 +38,7 @@
     height: 650px;
     display: block;
     background: #2e2e2e;
-    left: 200px;
+    left: 170px;
     font-size: 15px;
     font-weight: 400;
     top: 300px;

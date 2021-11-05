@@ -3,6 +3,7 @@
     height: auto;
     text-align: center;
     display: block;
+    z-index: 999;
 }
 
 .BannerImage {
@@ -11,4 +12,5 @@
     top: 70px;
     left: 0;
     overflow: hidden;
+    z-index: 998;
 }

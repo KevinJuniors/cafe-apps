@@ -9,7 +9,7 @@
     display: block;
     position: fixed;
     background: #c1e3ff;
-    z-index: 10000;
+    z-index: 1000;
     width: 100%;
     overflow: hidden;
 }

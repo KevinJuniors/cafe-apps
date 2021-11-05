@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./css/container.css";
 import "./css/banner.css";
 import  Banner from "./banner";
-import CoffeeImage from "../images/cafe.jpg";
+import CafeImage from "../images/cafe1.jpg";
 import MapContainer from "./mapContents";
 import starbucksIcon from "../images/starbucks-icon.jpg";
 import ediyaIcon from "../images/Ediya-icon.jpg";
@@ -18,7 +18,7 @@ class Container extends Component {
 
                 <div id="contents">
                     <div className="imageWrap">
-                        <img src={CoffeeImage} alt="CoffeeImage" />
+                        <img src={CafeImage} alt="CafeImage" />
                     </div>
 
                     <div className="textWrap">
@@ -35,28 +35,28 @@ class Container extends Component {
                     <div className="iconWrap">
                         <ul claaName="icons">
                             <li className="starbucks">
-                                <p>스타벅스</p>
+                                <h3>스타벅스</h3>
                                 <a href="https://www.starbucks.co.kr/menu/drink_list.do" title="스타벅스 메뉴 보러가기">
                                     <img src={starbucksIcon} alt="starbucks-icon" />
                                 </a>
                             </li>
 
-                            <li className="hollys">
-                                <p>이디야 커피</p>
-                                <a href="https://www.hollys.co.kr/menu/espresso.do" title="이디야커피 메뉴 보러가기">
+                            <li className="ediya">
+                                <h3>이디야 커피</h3>
+                                <a href="https://www.ediya.com/contents/menu_intro.html" title="이디야커피 메뉴 보러가기">
                                     <img src={ediyaIcon} alt="Ediya-icon" />
                                 </a>
                             </li>
 
                             <li className="compose">
-                                <p>컴포즈 커피</p>
+                                <h3>컴포즈 커피</h3>
                                 <a href="https://composecoffee.com/index.php?mid=board_koTk88&category=185" title="컴포즈커피 메뉴 보러가기">
                                     <img src={composeIcon} alt="compose-icon" />
                                 </a>
                             </li>
 
                             <li className="mega">
-                                <p>메가 커피</p>
+                                <h3>메가 커피</h3>
                                 <a href="http://www.megacoffee.me/bbs/content.php?co_id=menu1" title="메가커피 메뉴 보러가기">
                                     <img src={megaIcon} alt="mega-icon" />
                                 </a>
