@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./css/container.css";
 import "./css/banner.css";
 import  Banner from "./banner";
-import CafeImage from "../images/cafe1.jpg";
+import CafeImage from "../images/coffee-shop-image-2-1920x1080.png";
 import MapContainer from "./mapContents";
 import starbucksIcon from "../images/starbucks-icon.jpg";
 import ediyaIcon from "../images/Ediya-icon.jpg";
@@ -22,9 +22,8 @@ class Container extends Component {
                     </div>
 
                     <div className="textWrap">
-                        <p className="text">
-                            바쁜 일상에 지친 당신, 커피 한 잔으로 활력을 충전 해보세요!!
-                        </p>
+                        <p className="textKOR">바쁜 일상에 지친 당신, 커피 한 잔으로 활력을 충전 해보세요!!</p>
+                        <p className="textENG">If you are tired of your busy daily life, recharge your energy with a cup of coffee.!!</p>
                     </div>
 
                     <div className="mapsWrap">
@@ -33,6 +32,8 @@ class Container extends Component {
                     </div>
 
                     <div className="iconWrap">
+                        <h4>커피 브랜드 메뉴페이지 바로가기</h4>
+
                         <ul claaName="icons">
                             <li className="starbucks">
                                 <h3>스타벅스</h3>

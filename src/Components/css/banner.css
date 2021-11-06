@@ -7,10 +7,11 @@
 }
 
 .BannerImage {
-    display: block;
-    position: absolute;
-    top: 70px;
-    left: 0;
-    overflow: hidden;
+    display: inline-block;
+    position: relative;
     z-index: 998;
+}
+
+.BannerImage img {
+    overflow: hidden;
 }

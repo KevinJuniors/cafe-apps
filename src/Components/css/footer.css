@@ -1,0 +1,26 @@
+#footer {
+    display: block;
+    position: relative;
+    z-index: 1000000;
+}
+
+footer {
+    display: block;
+    position: relative;
+    width: 1920px;
+    height: 300px;
+    z-index: 100000;
+    background: url("../../images/black-footer.png")
+        no-repeat;
+    background-color: #000000;
+}
+
+address {
+    display: inline-block;
+    position: absolute;
+    top: 50px;
+}
+
+address .footerText {
+    color: #ffffff;
+}

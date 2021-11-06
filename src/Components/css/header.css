@@ -1,20 +1,42 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+And+White+Picture&display=swap');
 
+html {
+    background: #000000;
+}
+
 * {
     margin: 0;
     padding: 0;
 }
 
-#Home, .header {
+body {
+    -ms-overflow-style: none; 
+} 
+
+::-webkit-scrollbar {
+    display: none; 
+} 
+
+/* 특정 부분 스크롤바 없애기 */ 
+
+img {
+    -ms-overflow-style: none; 
+} 
+
+.box::-webkit-scrollbar {
+    display: none; 
+}
+
+#Home {
     display: block;
     position: fixed;
-    background: #c1e3ff;
-    z-index: 1000;
+    background: #c1e3ffef;
+    z-index: 10000;
     width: 100%;
     overflow: hidden;
 }
 
-#logo {
+header > #logo {
     font-size: 42px;
     font-weight: 400;
     font-family: 'Black And White Picture', sans-serif;
@@ -24,9 +46,10 @@
     top: 10px;
     left: 20px;
     cursor: pointer;
+    float: left;
 }
 
-.navGroup {
+header .navGroup {
     display: block;
     position: relative;
     float: right;
@@ -34,7 +57,7 @@
     width: auto;
 }
 
-.navbar {
+header .navbar {
     clear: both;
     list-style: none;
     top: 5px;

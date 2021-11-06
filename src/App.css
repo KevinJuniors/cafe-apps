@@ -5,6 +5,9 @@ body img {
 
 .App {
   text-align: center;
+  background-color: #000000;
+  color: #000000;
+  cursor: default;
 }
 
 .App-logo {
