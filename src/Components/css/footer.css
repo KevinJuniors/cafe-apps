@@ -19,6 +19,11 @@ address {
     display: inline-block;
     position: absolute;
     top: 50px;
+    right: 850px;
+}
+
+address p {
+    text-align: center;
 }
 
 address .footerText {
