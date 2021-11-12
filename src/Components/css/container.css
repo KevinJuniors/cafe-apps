@@ -7,7 +7,7 @@
 #Info {
     display: block;
     position: relative;
-    background-color: burlywood;
+    background-color: #deb887;
     width: 1920px;
     height: 100%;
 }
@@ -15,14 +15,12 @@
 #contents {
     position: relative;
     display: block;
-    /* top: 1200px; */
     margin-top: 1125px;
     width: 1920px;
     height: 1080px;
     right: 10px;
     background-color: #ff634700;
     z-index: 1000;
-    /* overflow: hidden; */
 }
 
 .imageWrap {
@@ -30,7 +28,6 @@
     position: relative;
     width: 1950px;
     height: 1080px;
-    /* top: 20px; */
     bottom: 1149px;
     z-index: 997;
     overflow: hidden;
@@ -39,7 +36,6 @@
 .textWrap {
     display: inline-block;
     position: relative;
-    /* top: 10px; */
     bottom: 1125px;
     font-size: 24px;
     font-family: 'Black And White Picture', sans-serif;
@@ -100,7 +96,6 @@
 .ediya {
     display: inline-block;
     position: relative;
-    /* left: 100px; */
     bottom: 30px;
 }
 
