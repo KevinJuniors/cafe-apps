@@ -10,6 +10,7 @@ React로 구현하는 우리동네 카페 찾기 웹 애플리케이션 입니�
 2021-11-04 주요 커피 브랜드(스타벅스, 이디야, 메가커피, 컴포즈커피) 이미지아이콘 추가  
 2021-11-06 Cafe Apps 최종 완성본 업로드 및 배포  
 2021-11-07 footer 위치 조정  
+2021-11-12 footer address 일부 수정 및 CSS 코드 내 불필요한 주석 제거   
 
 ## Cafe-Apps 살펴보기
 [## Cafe-Apps 바로가기] (https://kevinjuniors.github.io/cafe-apps/public/index.html)  
