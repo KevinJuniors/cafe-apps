@@ -1,9 +1,9 @@
 import React, { Component } from "react";
 import "./css/container.css";
 import "./css/banner.css";
-import  Banner from "./banner";
+import  Banner from "./Banner";
 import CafeImage from "../images/coffee-shop-image-2-1920x1080.png";
-import MapContainer from "./mapContents";
+import MapContainer from "./MapContents";
 import starbucksIcon from "../images/starbucks-icon.jpg";
 import ediyaIcon from "../images/Ediya-icon.jpg";
 import composeIcon from "../images/compose-icon.jpg";

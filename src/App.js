@@ -1,8 +1,8 @@
 import { Component } from 'react';
 import './App.css';
-import Header from "./Components/header";
-import Container from "./Components/container";
-import Footer from "./Components/footer";
+import Header from "./Components/Header";
+import Container from "./Components/Container";
+import Footer from "./Components/Footer";
 import DynamicWeb from "./Components/DynamicwebSettings";
 
 class App extends Component {

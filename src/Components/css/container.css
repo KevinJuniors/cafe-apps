@@ -37,6 +37,7 @@
     display: inline-block;
     position: relative;
     bottom: 1125px;
+    border: 3px solid blue;
     font-size: 24px;
     font-family: 'Black And White Picture', sans-serif;
 }
@@ -123,3 +124,34 @@
 .mega img {
     cursor: pointer;
 }
+
+/* @media all and (max-width: 1197px) {
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    * img {
+        width: 100%;
+        height: auto;
+    }
+    
+    .imageWrap {
+        display: block;
+        position: relative;
+        width: 1950px;
+        height: 1080px;
+        bottom: 1149px;
+        z-index: 997;
+        overflow: hidden;
+    }
+    
+    .textWrap {
+        display: inline-block;
+        position: relative;
+        bottom: 1125px;
+        border: 3px solid blue;
+        font-size: 24px;
+        font-family: 'Black And White Picture', sans-serif;
+    }
+} */
